@@ -1,11 +1,8 @@
 cmake_minimum_required(VERSION 3.13)
 set(PICO_BOARD "pico_w")
-set(PICO_SDK_PATH "/home/lawrence/.pico-sdk/sdk/2.1.0/")
+set(PICO_SDK_PATH "/usr/share/pico-sdk/")
 set(FREERTOS_KERNEL_PATH "/home/lawrence/.local/lib/FreeRTOS-Kernel/")
-set(sdkVersion 2.1.0)
-set(picotoolVersion 2.1.0)
-set(pioasm_DIR "/home/lawrence/.pico-sdk/tools/${sdkVersion}/pioasm")
-set(picotool_DIR "/home/lawrence/.pico-sdk/picotool/${picotoolVersion}/picotool")
+
 
 set(projectName "hello_rtos")
 
